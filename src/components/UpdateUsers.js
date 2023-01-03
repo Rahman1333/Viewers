@@ -33,7 +33,7 @@ export default function UpdateUsers() {
                              ${UsersData[key].country},
                              PinCode: ${UsersData[key].zipCode}`}</td>
                             <td className={"DeleteButton"} onClick={() => {
-                                Dispatch(UpdateUsers())
+                                Dispatch(UpdateUsers(""))
                             }}>Update
                             </td>
                         </tr>
