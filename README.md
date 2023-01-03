@@ -1,4 +1,4 @@
-# react.iworks.asn
+# React-Redux Project
 React Project with CRUD Operations
 
 Project Details
