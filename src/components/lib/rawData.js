@@ -46,8 +46,8 @@ export const usersData = {
     entities: {
         1: {
             id: 1,
-            firstName: "Dinesh",
-            lastName: "Kartik",
+            firstName: "Radhe",
+            lastName: "Mohan",
             emailId: "dinesh.kartik@aol.com",
             mobileNo: 8787878781,
             addressOne: "lokhandwala",
@@ -60,7 +60,7 @@ export const usersData = {
         2: {
             id: 2,
             firstName: "Mukesh",
-            lastName: "Sharma",
+            lastName: "Pal",
             emailId: "mukesh.sharma@aol.com",
             mobileNo: 8787878782,
             addressOne: "domlur",
@@ -73,7 +73,7 @@ export const usersData = {
         3: {
             id: 3,
             firstName: "Mukul",
-            lastName: "Singh",
+            lastName: "Sai",
             emailId: "mukul.singh@aol.com",
             mobileNo: 8787878783,
             addressOne: "radha nagar",
@@ -86,7 +86,7 @@ export const usersData = {
         4: {
             id: 4,
             firstName: "Jai",
-            lastName: "GarvRaj",
+            lastName: "Raj",
             emailId: "jai.garvraj@aol.com",
             mobileNo: 8787878784,
             addressOne: "lotus marg",
@@ -98,8 +98,8 @@ export const usersData = {
         },
         5: {
             id: 5,
-            firstName: "Manjunath",
-            lastName: "Gaikwad",
+            firstName: "Manju",
+            lastName: "Gupta",
             emailId: "jai.garvraj@aol.com",
             mobileNo: 8787878785,
             addressOne: "chandni-chowk",
