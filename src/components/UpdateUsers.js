@@ -22,7 +22,7 @@ export default function UpdateUsers() {
                 {
                     Object.keys(UsersData).map(key =>
                         <tr key={key}>
-                            <td>{`${UsersData[key].firstName} 
+                            <td contentEditable={true}>{`${UsersData[key].firstName} 
                             ${UsersData[key].lastName}`}</td>
                             <td>{UsersData[key].emailId}</td>
                             <td>{UsersData[key].mobileNo}</td>
@@ -33,7 +33,7 @@ export default function UpdateUsers() {
                              ${UsersData[key].country},
                              PinCode: ${UsersData[key].zipCode}`}</td>
                             <td className={"DeleteButton"} onClick={() => {
-                                Dispatch(UpdateUsers())
+                                Dispatch(UpdateUsers({id: key, changes: {}}))
                             }}>Update
                             </td>
                         </tr>
