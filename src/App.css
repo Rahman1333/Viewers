@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Calibri, serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+*:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input, span, ul, li, select, option {
+    display: block;
+}
+
+button:hover, input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.componentsContainer {
+    background-color: rgba(223, 226, 197, 0.2);
+    margin: 0 auto auto auto;
+    width: 42vw;
+    min-width: 650px;
+    min-height: 92vh;
+    height: auto;
+    padding: 10px 0;
+}
+
+.headerMenu, .headerButtons {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.headerMenu {
+    min-width: 550px;
+    height: 55px;
+    list-style: none;
+    background-color: rgba(20, 6, 59, 0.6);
+    border-bottom: 3px solid rgba(20, 6, 59, .3);
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.headerButtons {
+    text-decoration: none;
+    color: rgba(20, 6, 59, 0.8);
+    min-width: 90px;
+    height: 33px;
+    padding: 0 8px;
+    border-radius: 2px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 0.94rem;
+    font-weight: bold;
+}
+
+.headerButtons:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom,
+    rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+    color: rgba(20, 6, 59, 0.8);
+}
+
+.componentBox {
+    margin: 10px auto;
+    min-height: 130px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.componentTitle {
+    font-size: 1.07rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(20, 6, 59, 0.55);
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.createUserFormBox {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 7px;
+}
+
+.createUserFormSmallInput {
+    height: 50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.createUserFormInput {
+    width: 268px;
+    height: 35px;
+    padding: 16px 10px;
+    border: 2px solid rgba(82, 82, 82, 0.5);
+    border-radius: 2px;
+    color: rgba(68, 68, 68, 0.99);
+    opacity: 0.7;
+}
+
+.createUserFormInput:focus {
+    opacity: 0.9;
+    border: 2px solid rgba(82, 82, 82, 0.8);
+}
+
+.createUserFormInputSelect {
+    width: 268px;
+    height: 35px;
+    border: 2px solid rgba(82, 82, 82, 0.5);
+    border-radius: 2px;
+    color: rgba(68, 68, 68, 0.99);
+    opacity: 0.7;
+}
+
+.createUserFormInputSubmitBtn {
+    color: white;
+    min-width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    justify-items: center;
+    border: 3px solid white;
+    background-color: rgba(20, 6, 59, 0.7);
+    padding: 0 5px;
+}
+
+.createUserFormInputSubmitBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(rgb(20, 6, 59, 0.8),
+    rgba(20, 6, 59, 0.6));
+}
+
+.formErrorMessage {
+    min-width: 100px;
+    height: 15px;
+    color: #da4242;
+    font-size: .8rem;
+    padding: 1px 5px;
+    margin: 1px 1px 1px 1px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: .75rem;
+    font-family: Tahoma, monospace;
+    width: auto;
+    padding: 7px 5px;
+}
+
+.DeleteButton {
+    color: #da4242;
+    cursor: pointer;
+}
+
+.DeleteButton:hover {
+    background-color: white;
+}
+
+.DeleteUser, .ViewAllUsers {
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.CreateUserTitle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+    border-left: none;
+}
