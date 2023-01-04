@@ -53,8 +53,8 @@ export const usersData = {
             addressOne: "lokhandwala",
             addressTwo: "andheri west",
             country: 'India',
-            state: 'maharashtra',
-            city: "mumbai",
+            state: 'Maharashtra',
+            city: "Mumbai",
             zipCode: 560054
         },
         2: {
@@ -66,8 +66,8 @@ export const usersData = {
             addressOne: "domlur",
             addressTwo: "mahadevapura",
             country: 'India',
-            state: 'karnataka',
-            city: "bangalore",
+            state: 'Karnataka',
+            city: "Bangalore",
             zipCode: 460054
         },
         3: {
@@ -79,8 +79,8 @@ export const usersData = {
             addressOne: "radha nagar",
             addressTwo: "vrindavan",
             country: 'India',
-            state: 'uttar-pradesh',
-            city: "mathura",
+            state: 'UttarPradesh',
+            city: "Mathura",
             zipCode: 202005
         },
         4: {
@@ -92,8 +92,8 @@ export const usersData = {
             addressOne: "lotus marg",
             addressTwo: "lotus colony",
             country: 'India',
-            state: 'uttar-pradesh',
-            city: "agra",
+            state: 'UttarPradesh',
+            city: "Agra",
             zipCode: 202008
         },
         5: {
@@ -106,7 +106,7 @@ export const usersData = {
             addressTwo: "nehru-place",
             country: 'India',
             state: 'Delhi',
-            city: "New-Delhi",
+            city: "NewDelhi",
             zipCode: 320054
         },
     }

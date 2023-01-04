@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css?n=1';
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import {Provider} from "react-redux";
 import Layout from "./components/lib/Layout";

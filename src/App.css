@@ -38,8 +38,8 @@ button:hover, input[type="button"]:hover {
 .componentsContainer {
     background-color: rgba(223, 226, 197, 0.2);
     margin: 0 auto auto auto;
-    width: 42vw;
-    min-width: 650px;
+    width: 60vw;
+    min-width: 950px;
     min-height: 92vh;
     height: auto;
     padding: 10px 0;
@@ -180,23 +180,79 @@ th, td {
     color: rgba(0, 0, 0, 0.6);
     font-size: .75rem;
     font-family: Tahoma, monospace;
-    width: auto;
+    width: min-content;
     padding: 7px 5px;
+    overflow: hidden;
 }
 
-.DeleteButton {
+.DeleteButton, .UpdateButton {
     color: #da4242;
     cursor: pointer;
 }
 
-.DeleteButton:hover {
+.DeleteButton:hover, .UpdateButton:hover {
     background-color: white;
 }
 
-.DeleteUser, .ViewAllUsers {
+.DeleteUser, .updateUser, .ViewAllUsers {
     border-bottom: none;
     border-right: none;
     border-left: none;
+}
+
+.createUser {
+    width: 40vw;
+    min-width: 600px;
+}
+
+
+.UpdateUsersTable > td {
+    overflow: hidden;
+    padding: 0;
+    height: auto;
+}
+
+.firstName, .lastName, .ZipCode {
+    width: 45px;
+}
+
+.EmailId {
+    width: 160px;
+}
+
+.MobileNo {
+    width: 80px;
+}
+
+.AddressOne, .AddressTwo {
+    width: 170px;
+}
+
+.City, .State, .Country {
+    width: 85px;
+}
+
+.ZipCode {
+    width: 40px;
+}
+
+.updateInput {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: .75rem;
+    font-family: Tahoma, monospace;
+    resize: none;
+    padding: 10px 3px 0 3px;
+    overflow: hidden;
+}
+
+.updateInput:hover {
+    background-color: white;
+    min-width: fit-content;
 }
 
 .CreateUserTitle {

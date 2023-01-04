@@ -30,7 +30,7 @@ export default function CreateUser() {
     }
 
     return (
-        <nav className={"componentBox"}>
+        <nav className={"componentBox createUser"}>
             <h1 className={'componentTitle CreateUserTitle'}>Create User Form</h1>
             <form className={"createUserFormBox"} name={"FormBox"} onSubmit={handleSubmit(onSubmit)}>
                 <div className={"createUserFormSmallInput"}>
