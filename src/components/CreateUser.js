@@ -19,7 +19,6 @@ export default function CreateUser() {
     const availableCities = availableState?.states?.find(
         (s) => s.name === selectedState
     );
-
     const onSubmit = data => { // onSubmit Sending a data to redux store via Dispatch method and then successful message through timeout
         idStateSet(idState + 1);
         Dispatch(AddUser(data))
